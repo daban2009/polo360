@@ -1,0 +1,240 @@
+body{
+	/* height: 1612px; */
+	background: url(../img/bd-bg.png) repeat-x;
+}
+#header{
+	width: 940px;
+	margin: 0 auto;
+	padding: 37px 0px 46px 0px;
+	/* background-color: aqua; */
+}
+#header img{
+	margin: 0px 0px 0px 15px;
+}
+ul{
+	float: right;
+	/* list-style: none; */
+	/* background-color: blue; */
+	margin: 22px 0px 0px;
+}
+ul li{
+	float: left;
+	padding: 0px 10px 8px;
+	border-left:1px #d6d6d6 dotted ;
+}
+ul a{
+	color: #666;
+	font:bold 14px Georgia;
+	text-decoration: none;
+}
+ul p{
+	color: #b7b7b7;
+	font:11px tahoma;
+}
+ul a:hover{
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+
+
+#banner{
+	width: 940px;
+	height: 356px;
+	margin: 0 auto;
+	background: url(../img/banner-bg.png) no-repeat  center bottom;
+	position: relative;
+}
+#banner a{
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin-left: 4px;
+	background: url(../img/sprite.png) no-repeat;
+	
+}
+#banner a:hover{
+	background-position: -27px 0px;
+}
+.pointer{
+	position: absolute;
+	left: 15px;
+	top: 314px;
+}
+#content{
+	width: 940px;
+	margin: 0 auto;
+}
+/* 解决高度塌陷 */
+#content:before,
+#content:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+#content h1{
+	text-align: center;
+	font: bold 24px Georgia;
+	padding: 6px 0px 20px 0px;
+	margin: 0px 0px 38px;
+	background: url(../img/line.png) no-repeat bottom center;
+}
+#content .imgdiv{
+	background: url(../img/img-bg.png) no-repeat;
+	padding: 12px 7px;
+	margin: 16px 0px 8px;
+}
+#pl,#cs,#uc{
+	margin: ;
+	width: 300px;
+	float: left;
+}
+#cs{
+	margin: 0px 20px;
+}
+#pl h2,#cs h2,#uc h2{
+	font: 21px Georgia;
+	color: #11719e;
+}
+#content .p1{
+	font: 12px Helvetica;
+	color: #8c8c8c;
+}
+#content .p2{
+	height: 92px;
+	font: 13px Helvetica;
+	color: #3e3e3e;
+	word-spacing: 2px;
+}
+#pl .lm,#cs .lm,#uc .lm{
+	display: block;
+	width: 163px;
+	height: 40px;
+	font: 12px/40px Helvetica;
+	color: #016999;
+	text-decoration: none;
+	text-indent: 1em;
+	background: url(../img/btn1.png) no-repeat ;
+	margin: 0px 0px 35px;
+}
+.contact{
+	background: url(../img/line.png) no-repeat top center;
+	width: 940px;
+	margin: 0 auto;
+}
+/* 解决高度塌陷 */
+.contact:before,
+.contact:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.contact .sc,.contact .co, .contact .nu{
+	width: 300px;
+	float: left;
+}
+.contact h2{
+	color: #444;
+	font:18px/1 georgia;
+	border-bottom: 1px dashed #d3d3d3;
+	padding: 44px 0px 10px;
+	margin-bottom: 15px
+}
+.contact .co{
+	margin: 0px 20px;
+}
+.sc .p1{
+	color: #444;
+    font: 12px/1 Helvetica;
+}
+.sc .nl{
+	font: bold 18px/1 "gill sans mt";
+	padding: 32px 0px 10px;
+}
+.icon{
+	margin: 4px 0px 0px;
+	/* 通过这只字体大小来解决空格做产生的间隔 */
+	font-size: 21px;
+}
+.sc .txt{
+	margin: 15px 0px 0px;
+	width: 276px;
+	height: 33px;
+	padding: 0px 10px;
+	background: url(../img/input.png) no-repeat;
+	line-height: 33px;
+	border: none;
+}
+.contact .btn{
+	width: 163px;
+	height: 32px;
+	border: none;
+	margin: 11px 0px 23px;
+	background: url(../img/btn2.png) no-repeat;
+	color: white;
+    font: 13px Georgia;
+    text-align: left;
+    text-indent: 1em;
+    cursor: pointer;
+	padding: 0px;
+}
+.co .txt{
+	width: 276px;
+	height: 33px;
+	border: none;
+	padding: 0px 10px;
+	background: url(../img/input.png) no-repeat;
+	line-height: 33px;
+	margin: 0px 0px 16px;
+}
+.co .tarea{
+	width: 276px;
+    height: 114px;
+    background: url(../img/textarea.png) no-repeat;
+    border: none;
+    resize: none;
+    padding: 10px;
+    /* margin: 0; */
+}
+.nu img{
+	float: left;
+	margin-right: 8px;
+}
+.nu p{
+	color: #444;
+    font: 12px/1 helvetica;
+    height: 58px;
+    border-bottom: 1px dashed #d3d3d3;
+    margin-bottom: 14px;
+    padding-bottom: 9px;
+}
+.nu .no-margin {
+    margin-bottom: 0px;
+}
+
+.footer{
+	height: 173px;
+	background: #333;
+	border-top: 10px solid #4c4c4c;
+}
+.footer .cp{
+	float: right;
+}
+.footer a, .footer p {
+    color: #999;
+    font: 11px Helvetica;
+    text-decoration: none;
+}
+.footer p {
+    margin-left: 8px;
+    margin-right: 23px;
+    margin-bottom: 6px;
+}
+.d{
+	width: 940px;
+	margin: 0px auto;
+	padding-top: 18px;
+}
+.footer a:hover {
+    color: #cccaca;
+    text-decoration: underline;
+}
